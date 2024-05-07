@@ -1,0 +1,8 @@
+wget http://www.pabr.org/sixlinux/sixpair.c
+gcc -o sixpair sixpair.c -lusb
+
+sudo ./sixpair -h
+sudo ./sixpair dc:a6:32:82:b2:50
+
+Current Bluetooth master: 38:4f:f0:c2:8b:6c
+
